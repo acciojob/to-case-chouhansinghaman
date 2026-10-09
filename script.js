@@ -1,4 +1,5 @@
 function toCase(text) {
+	if(text.length === 0) return "-"
   return `${text.toLowerCase()}-${text.toUpperCase()}`
 }
 
